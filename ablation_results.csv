@@ -1,0 +1,5 @@
+Configuration,CIC23_MacroF1,CIC23_BAcc,CIC17_MacroF1,CIC17_BAcc,BOT_MacroF1,BOT_BAcc
+Full,~0.98,~0.95,~0.11,~0.49,~0.18,~0.50
+w/o Class Balance,~0.99,~0.73,~0.31,~0.31,~1.00,~0.50
+w/o FedProx,~0.98,~0.84,~0.14,~0.14,~0.33,~0.50
+w/o Trust,~0.98,~0.84,~0.52,~0.53,~1.00,~0.50
