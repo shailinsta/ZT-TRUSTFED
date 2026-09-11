@@ -1,0 +1,67 @@
+{
+  "title": "ZT-TrustFed: A Trust-Aware Federated Intrusion Detection Framework for Heterogeneous and Non-IID Security Data",
+  "description": "<p><strong>ZT-TrustFed</strong> is a trust-based federated learning system for intrusion detection that integrates:</p><ul><li>FedProx regularization</li><li>Dynamic trust-based weighted aggregation (T-Krum)</li><li>Gaussian differential privacy</li><li>Single-step adversarial training (FGSM)</li><li>Zero-Trust client filtering</li><li>Ledger-based auditability</li></ul><p>The framework is evaluated on three heterogeneous benchmark datasets (CIC-IoT2023, CIC-IDS2017, and BoT-IoT) after feature alignment to a common 25-dimensional representation.</p><p>This deposit contains the complete experimental package including the pipeline notebook, results tables, figures, and documentation extracted from the manuscript.</p>",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "mit",
+  "language": "eng",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Mishra, Saumya",
+      "affiliation": ""
+    },
+    {
+      "name": "Almutiri, Wejdan Ali",
+      "affiliation": ""
+    },
+    {
+      "name": "Mishra, Shailendra",
+      "affiliation": ""
+    }
+  ],
+  "keywords": [
+    "federated learning",
+    "intrusion detection",
+    "trust-aware aggregation",
+    "T-Krum",
+    "FedProx",
+    "differential privacy",
+    "adversarial training",
+    "FGSM",
+    "zero-trust",
+    "Byzantine robustness",
+    "non-IID data",
+    "CIC-IoT2023",
+    "CIC-IDS2017",
+    "BoT-IoT",
+    "network security"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://colab.research.google.com/drive/1FxUYGA5Nj6BcSbt4jE-6C1fVyVlzgvRP?usp=sharing",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/chethuhn/network-intrusion-dataset",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/akashdogra/cic-iot-2023",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "https://www.kaggle.com/datasets/vigneshvenkateswaran/bot-iot",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Experiments use fixed random seeds (including 2024–2028 for multi-seed Byzantine runs). Implementation developed and tested with Python 3.10+ and Google Colab / PyTorch. Full runnable pipeline is available via the linked Colab notebook."
+}
