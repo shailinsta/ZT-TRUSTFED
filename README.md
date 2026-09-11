@@ -82,11 +82,6 @@ Experiments use fixed random seeds (including 2024–2028 for multi-seed Byzanti
 
 ## Authors
 
-**Saumya Mishra**  
-Original implementation and experimental work.
-
-**Wejdan Ali Almutiri**  
-Methodology, validation, review, and editing.
 
 **Shailendra Mishra**  
 Supervision.
